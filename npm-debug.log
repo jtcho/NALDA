@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/jtcho/Documents/Code/NALDA',
+5 verbose install   [ 'body-parser',
+5 verbose install     'composable-middleware',
+5 verbose install     'compression',
+5 verbose install     'connect-mongo',
+5 verbose install     'cookie-parser',
+5 verbose install     'ejs',
+5 verbose install     'errorhandler',
+5 verbose install     'express',
+5 verbose install     'express-session',
+5 verbose install     'gzippo',
+5 verbose install     'lodash',
+5 verbose install     'method-override',
+5 verbose install     'mongoose',
+5 verbose install     'morgan',
+5 verbose install     'serve-favicon',
+5 verbose install     'animate.css',
+5 verbose install     'grunt',
+5 verbose install     'grunt-autoprefixer',
+5 verbose install     'grunt-wiredep',
+5 verbose install     'grunt-concurrent',
+5 verbose install     'grunt-contrib-clean',
+5 verbose install     'grunt-contrib-concat',
+5 verbose install     'grunt-contrib-copy',
+5 verbose install     'grunt-contrib-cssmin',
+5 verbose install     'grunt-contrib-htmlmin',
+5 verbose install     'grunt-contrib-imagemin',
+5 verbose install     'grunt-contrib-jshint',
+5 verbose install     'grunt-contrib-uglify',
+5 verbose install     'grunt-contrib-watch',
+5 verbose install     'grunt-google-cdn',
+5 verbose install     'grunt-newer',
+5 verbose install     'grunt-ng-annotate',
+5 verbose install     'grunt-rev',
+5 verbose install     'grunt-svgmin',
+5 verbose install     'grunt-usemin',
+5 verbose install     'grunt-env',
+5 verbose install     'grunt-node-inspector',
+5 verbose install     'grunt-nodemon',
+5 verbose install     'grunt-angular-templates',
+5 verbose install     'grunt-dom-munger',
+5 verbose install     'grunt-protractor-runner',
+5 verbose install     'grunt-asset-injector',
+5 verbose install     'grunt-karma',
+5 verbose install     'grunt-build-control',
+5 verbose install     'grunt-mocha-test',
+5 verbose install     'grunt-contrib-sass',
+5 verbose install     'jit-grunt',
+5 verbose install     'time-grunt',
+5 verbose install     'grunt-express-server',
+5 verbose install     'grunt-open',
+5 verbose install     'open',
+5 verbose install     'jshint-stylish',
+5 verbose install     'connect-livereload',
+5 verbose install     'karma-ng-scenario',
+5 verbose install     'karma-firefox-launcher',
+5 verbose install     'karma-script-launcher',
+5 verbose install     'karma-html2js-preprocessor',
+5 verbose install     'karma-ng-jade2js-preprocessor',
+5 verbose install     'karma-jasmine',
+5 verbose install     'karma-chrome-launcher',
+5 verbose install     'requirejs',
+5 verbose install     'karma-requirejs',
+5 verbose install     'karma-coffee-preprocessor',
+5 verbose install     'karma-jade-preprocessor',
+5 verbose install     'karma-phantomjs-launcher',
+5 verbose install     'karma',
+5 verbose install     'karma-ng-html2js-preprocessor',
+5 verbose install     'supertest',
+5 verbose install     'should' ] ]
+6 info preinstall nalda@0.0.0
+7 verbose readDependencies using package.json deps
+8 verbose already installed skipping gzippo@^0.2.0 /Users/jtcho/Documents/Code/NALDA
+9 verbose already installed skipping lodash@~2.4.1 /Users/jtcho/Documents/Code/NALDA
+10 verbose already installed skipping method-override@~1.0.0 /Users/jtcho/Documents/Code/NALDA
+11 verbose already installed skipping mongoose@~3.8.8 /Users/jtcho/Documents/Code/NALDA
+12 verbose already installed skipping morgan@~1.0.0 /Users/jtcho/Documents/Code/NALDA
+13 verbose already installed skipping serve-favicon@~2.0.1 /Users/jtcho/Documents/Code/NALDA
+14 verbose cache add [ 'animate.css@~3.2', null ]
+15 verbose cache add name=undefined spec="animate.css@~3.2" args=["animate.css@~3.2",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'animate.css@~3.2',
+16 verbose parsed url   path: 'animate.css@~3.2',
+16 verbose parsed url   href: 'animate.css@~3.2' }
+17 verbose already installed skipping grunt@~0.4.4 /Users/jtcho/Documents/Code/NALDA
+18 verbose already installed skipping grunt-autoprefixer@~0.7.2 /Users/jtcho/Documents/Code/NALDA
+19 verbose cache add name="animate.css" spec="~3.2" args=["animate.css","~3.2"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '~3.2',
+20 verbose parsed url   path: '~3.2',
+20 verbose parsed url   href: '~3.2' }
+21 verbose addNamed [ 'animate.css', '~3.2' ]
+22 verbose addNamed [ null, '>=3.2.0-0 <3.3.0-0' ]
+23 verbose already installed skipping grunt-wiredep@~1.8.0 /Users/jtcho/Documents/Code/NALDA
+24 silly lockFile 8390fe0d-animate-css-3-2 animate.css@~3.2
+25 verbose lock animate.css@~3.2 /Users/jtcho/.npm/8390fe0d-animate-css-3-2.lock
+26 verbose already installed skipping grunt-concurrent@~0.5.0 /Users/jtcho/Documents/Code/NALDA
+27 silly addNameRange { name: 'animate.css',
+27 silly addNameRange   range: '>=3.2.0-0 <3.3.0-0',
+27 silly addNameRange   hasData: false }
+28 verbose already installed skipping grunt-contrib-clean@~0.5.0 /Users/jtcho/Documents/Code/NALDA
+29 verbose already installed skipping grunt-contrib-concat@~0.4.0 /Users/jtcho/Documents/Code/NALDA
+30 verbose registry.get https://registry.npmjs.org/animate.css not expired, no request
+31 silly addNameRange number 2 { name: 'animate.css',
+31 silly addNameRange   range: '>=3.2.0-0 <3.3.0-0',
+31 silly addNameRange   hasData: true }
+32 silly addNameRange versions [ 'animate.css', [ '3.1.1' ] ]
+33 silly lockFile 8390fe0d-animate-css-3-2 animate.css@~3.2
+34 silly lockFile 8390fe0d-animate-css-3-2 animate.css@~3.2
+35 verbose already installed skipping grunt-contrib-copy@~0.5.0 /Users/jtcho/Documents/Code/NALDA
+36 verbose already installed skipping grunt-contrib-cssmin@~0.9.0 /Users/jtcho/Documents/Code/NALDA
+37 verbose already installed skipping grunt-contrib-htmlmin@~0.2.0 /Users/jtcho/Documents/Code/NALDA
+38 verbose already installed skipping grunt-contrib-imagemin@~0.7.1 /Users/jtcho/Documents/Code/NALDA
+39 verbose already installed skipping grunt-contrib-jshint@~0.10.0 /Users/jtcho/Documents/Code/NALDA
+40 verbose already installed skipping grunt-contrib-uglify@~0.4.0 /Users/jtcho/Documents/Code/NALDA
+41 verbose already installed skipping grunt-contrib-watch@~0.6.1 /Users/jtcho/Documents/Code/NALDA
+42 verbose already installed skipping grunt-google-cdn@~0.4.0 /Users/jtcho/Documents/Code/NALDA
+43 verbose already installed skipping grunt-newer@~0.7.0 /Users/jtcho/Documents/Code/NALDA
+44 verbose already installed skipping grunt-ng-annotate@^0.2.3 /Users/jtcho/Documents/Code/NALDA
+45 verbose already installed skipping grunt-rev@~0.1.0 /Users/jtcho/Documents/Code/NALDA
+46 verbose already installed skipping grunt-svgmin@~0.4.0 /Users/jtcho/Documents/Code/NALDA
+47 verbose already installed skipping grunt-usemin@~2.1.1 /Users/jtcho/Documents/Code/NALDA
+48 verbose already installed skipping grunt-env@~0.4.1 /Users/jtcho/Documents/Code/NALDA
+49 verbose already installed skipping grunt-node-inspector@~0.1.5 /Users/jtcho/Documents/Code/NALDA
+50 verbose already installed skipping grunt-nodemon@~0.2.0 /Users/jtcho/Documents/Code/NALDA
+51 verbose already installed skipping grunt-angular-templates@^0.5.4 /Users/jtcho/Documents/Code/NALDA
+52 verbose already installed skipping grunt-dom-munger@^3.4.0 /Users/jtcho/Documents/Code/NALDA
+53 verbose already installed skipping grunt-protractor-runner@^1.1.0 /Users/jtcho/Documents/Code/NALDA
+54 verbose already installed skipping grunt-asset-injector@^0.1.0 /Users/jtcho/Documents/Code/NALDA
+55 verbose already installed skipping grunt-karma@~0.8.2 /Users/jtcho/Documents/Code/NALDA
+56 verbose cache add [ 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+56 verbose cache add   null ]
+57 verbose cache add name=undefined spec="grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control" args=["grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+58 verbose parsed url   path: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control',
+58 verbose parsed url   href: 'grunt-build-control@git+https://github.com/DaftMonk/grunt-build-control' }
+59 verbose already installed skipping grunt-mocha-test@~0.10.2 /Users/jtcho/Documents/Code/NALDA
+60 verbose cache add name="grunt-build-control" spec="git+https://github.com/DaftMonk/grunt-build-control" args=["grunt-build-control","git+https://github.com/DaftMonk/grunt-build-control"]
+61 verbose parsed url { protocol: 'git+https:',
+61 verbose parsed url   slashes: true,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: 'github.com',
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: 'github.com',
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: '/DaftMonk/grunt-build-control',
+61 verbose parsed url   path: '/DaftMonk/grunt-build-control',
+61 verbose parsed url   href: 'git+https://github.com/DaftMonk/grunt-build-control' }
+62 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+63 verbose lock https://github.com/DaftMonk/grunt-build-control /Users/jtcho/.npm/7e4d577b-com-DaftMonk-grunt-build-control.lock
+64 verbose already installed skipping grunt-contrib-sass@^0.7.3 /Users/jtcho/Documents/Code/NALDA
+65 verbose already installed skipping jit-grunt@^0.5.0 /Users/jtcho/Documents/Code/NALDA
+66 verbose addRemoteGit [ 'https://github.com/DaftMonk/grunt-build-control', 'master' ]
+67 verbose already installed skipping time-grunt@~0.3.1 /Users/jtcho/Documents/Code/NALDA
+68 verbose already installed skipping grunt-express-server@~0.4.17 /Users/jtcho/Documents/Code/NALDA
+69 verbose already installed skipping grunt-open@~0.2.3 /Users/jtcho/Documents/Code/NALDA
+70 verbose already installed skipping open@~0.0.4 /Users/jtcho/Documents/Code/NALDA
+71 verbose already installed skipping jshint-stylish@~0.1.5 /Users/jtcho/Documents/Code/NALDA
+72 verbose already installed skipping connect-livereload@~0.4.0 /Users/jtcho/Documents/Code/NALDA
+73 verbose already installed skipping karma-ng-scenario@~0.1.0 /Users/jtcho/Documents/Code/NALDA
+74 verbose already installed skipping karma-firefox-launcher@~0.1.3 /Users/jtcho/Documents/Code/NALDA
+75 verbose already installed skipping karma-script-launcher@~0.1.0 /Users/jtcho/Documents/Code/NALDA
+76 verbose already installed skipping karma-html2js-preprocessor@~0.1.0 /Users/jtcho/Documents/Code/NALDA
+77 verbose already installed skipping karma-ng-jade2js-preprocessor@^0.1.2 /Users/jtcho/Documents/Code/NALDA
+78 verbose git remote.origin.url https://github.com/DaftMonk/grunt-build-control
+79 verbose already installed skipping karma-jasmine@~0.1.5 /Users/jtcho/Documents/Code/NALDA
+80 verbose already installed skipping karma-chrome-launcher@~0.1.3 /Users/jtcho/Documents/Code/NALDA
+81 verbose already installed skipping requirejs@~2.1.11 /Users/jtcho/Documents/Code/NALDA
+82 verbose already installed skipping karma-requirejs@~0.2.1 /Users/jtcho/Documents/Code/NALDA
+83 verbose already installed skipping karma-coffee-preprocessor@~0.2.1 /Users/jtcho/Documents/Code/NALDA
+84 verbose already installed skipping karma-jade-preprocessor@0.0.11 /Users/jtcho/Documents/Code/NALDA
+85 verbose already installed skipping karma-phantomjs-launcher@~0.1.4 /Users/jtcho/Documents/Code/NALDA
+86 verbose already installed skipping karma@~0.12.9 /Users/jtcho/Documents/Code/NALDA
+87 verbose already installed skipping karma-ng-html2js-preprocessor@~0.1.0 /Users/jtcho/Documents/Code/NALDA
+88 verbose already installed skipping supertest@~0.11.0 /Users/jtcho/Documents/Code/NALDA
+89 verbose already installed skipping should@~3.3.1 /Users/jtcho/Documents/Code/NALDA
+90 verbose already installed skipping body-parser@~1.5.0 /Users/jtcho/Documents/Code/NALDA
+91 verbose already installed skipping composable-middleware@^0.3.0 /Users/jtcho/Documents/Code/NALDA
+92 verbose already installed skipping compression@~1.0.1 /Users/jtcho/Documents/Code/NALDA
+93 verbose already installed skipping connect-mongo@^0.4.1 /Users/jtcho/Documents/Code/NALDA
+94 verbose already installed skipping cookie-parser@~1.0.1 /Users/jtcho/Documents/Code/NALDA
+95 verbose already installed skipping ejs@~0.8.4 /Users/jtcho/Documents/Code/NALDA
+96 verbose already installed skipping errorhandler@~1.0.0 /Users/jtcho/Documents/Code/NALDA
+97 verbose already installed skipping express@~4.0.0 /Users/jtcho/Documents/Code/NALDA
+98 verbose already installed skipping express-session@~1.0.2 /Users/jtcho/Documents/Code/NALDA
+99 verbose git fetch -a origin (https://github.com/DaftMonk/grunt-build-control)
+100 verbose git rev-list -n1 master 3d03ebbe49f8f963ef43c50af1084a15f56611fa
+101 verbose resolved git url git+https://github.com/DaftMonk/grunt-build-control#3d03ebbe49f8f963ef43c50af1084a15f56611fa
+102 verbose tar unpack /var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz
+103 silly lockFile 390082e7-13735063187777996-tmp-tgz-unpack tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz-unpack
+104 verbose lock tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz-unpack /Users/jtcho/.npm/390082e7-13735063187777996-tmp-tgz-unpack.lock
+105 silly lockFile e8c291e3-4329-0-13735063187777996-tmp-tgz tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz
+106 verbose lock tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz /Users/jtcho/.npm/e8c291e3-4329-0-13735063187777996-tmp-tgz.lock
+107 silly gunzTarPerm modes [ '755', '644' ]
+108 silly gunzTarPerm extractEntry
+109 silly gunzTarPerm modified mode [ '', 509, 493 ]
+110 silly gunzTarPerm extractEntry .gitignore
+111 silly gunzTarPerm modified mode [ '.gitignore', 436, 420 ]
+112 silly gunzTarPerm extractEntry .jshintrc
+113 silly gunzTarPerm modified mode [ '.jshintrc', 436, 420 ]
+114 silly gunzTarPerm extractEntry Gruntfile.js
+115 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 420 ]
+116 silly gunzTarPerm extractEntry LICENSE
+117 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+118 silly gunzTarPerm extractEntry README.md
+119 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+120 silly gunzTarPerm extractEntry package.json
+121 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+122 silly gunzTarPerm extractEntry tasks/
+123 silly gunzTarPerm modified mode [ 'tasks/', 509, 493 ]
+124 silly gunzTarPerm extractEntry tasks/build_control.js
+125 silly gunzTarPerm modified mode [ 'tasks/build_control.js', 436, 420 ]
+126 silly gunzTarPerm extractEntry test/
+127 silly gunzTarPerm modified mode [ 'test/', 509, 493 ]
+128 silly gunzTarPerm extractEntry test/build_control_test.js
+129 silly gunzTarPerm modified mode [ 'test/build_control_test.js', 436, 420 ]
+130 silly gunzTarPerm extractEntry test/expected/
+131 silly gunzTarPerm modified mode [ 'test/expected/', 509, 493 ]
+132 silly gunzTarPerm extractEntry test/expected/custom_options
+133 silly gunzTarPerm modified mode [ 'test/expected/custom_options', 436, 420 ]
+134 silly gunzTarPerm extractEntry test/expected/default_options
+135 silly gunzTarPerm modified mode [ 'test/expected/default_options', 436, 420 ]
+136 silly gunzTarPerm extractEntry test/fixtures/
+137 silly gunzTarPerm modified mode [ 'test/fixtures/', 509, 493 ]
+138 silly gunzTarPerm extractEntry test/fixtures/123
+139 silly gunzTarPerm modified mode [ 'test/fixtures/123', 436, 420 ]
+140 silly gunzTarPerm extractEntry test/fixtures/testing
+141 silly gunzTarPerm modified mode [ 'test/fixtures/testing', 436, 420 ]
+142 silly lockFile 390082e7-13735063187777996-tmp-tgz-unpack tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz-unpack
+143 silly lockFile 390082e7-13735063187777996-tmp-tgz-unpack tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz-unpack
+144 silly lockFile e8c291e3-4329-0-13735063187777996-tmp-tgz tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz
+145 silly lockFile e8c291e3-4329-0-13735063187777996-tmp-tgz tar:///var/folders/_1/x53tmk7s51dc1tv88xltlt740000gn/T/npm-13575-gI2ZiGbY/1413193354329-0.13735063187777996/tmp.tgz
+146 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+147 silly lockFile 7e4d577b-com-DaftMonk-grunt-build-control https://github.com/DaftMonk/grunt-build-control
+148 error notarget No compatible version found: animate.css@'>=3.2.0-0 <3.3.0-0'
+148 error notarget Valid install targets:
+148 error notarget ["3.1.1"]
+148 error notarget
+148 error notarget This is most likely not a problem with npm itself.
+148 error notarget In most cases you or one of your dependencies are requesting
+148 error notarget a package version that doesn't exist.
+149 error System Darwin 13.4.0
+150 error command "node" "/usr/local/bin/npm" "install"
+151 error cwd /Users/jtcho/Documents/Code/NALDA
+152 error node -v v0.10.32
+153 error npm -v 1.4.28
+154 error code ETARGET
+155 verbose exit [ 1, true ]
