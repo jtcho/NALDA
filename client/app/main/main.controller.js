@@ -18,6 +18,26 @@ angular.module('naldaApp')
   //   }
   // }]
   // )
+  .directive('hoverLogo', function() {
+    return {
+      restrict: 'A',
+      scope: true,
+      link: function(scope, element, attrs) {
+        element.bind("mouseover", function(e) {
+          console.log("blah")
+          element.addClass("animated rubberBand")
+          element.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
+            function() {
+              element.removeClass("animated rubberBand")
+            }
+          );
+        });
+        element.bind("mouseout", function(e) {
+          //element.removeClass("animated bounceIn")
+        });
+      }
+    }
+  })
   .controller('MainCtrl', function ($scope, $http) {
 
     $scope.descBlurbs = [
