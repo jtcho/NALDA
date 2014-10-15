@@ -14,6 +14,10 @@ angular.module('naldaApp')
     {
       'title': 'gallery',
       'link': '/gallery'
+    },
+    {
+      'title': 'cheat sheet',
+      'link': '/cheatsheet'
     }
     ];
 

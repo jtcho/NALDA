@@ -24,8 +24,8 @@ angular.module('naldaApp')
       scope: true,
       link: function(scope, element, attrs) {
         element.bind("mouseover", function(e) {
-          console.log("blah")
           element.addClass("animated rubberBand")
+          //Once the animation's ended, reset.
           element.one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', 
             function() {
               element.removeClass("animated rubberBand")
